@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTA's - Alquileres</title>
+</head>
+<body>
+
+    <header id="header"></header>
+
+    <main>
+        <!-- Buscador -->
+        <input id="searchInput" placeholder="Buscar alojamiento..." style="display:block; margin:20px auto; padding:10px;">
+
+        <!-- Botón Dark Mode -->
+        <button id="toggleBtn" style="display:block; margin:10px auto; padding:10px 20px;">Cambiar tema</button>
+
+        <!-- Contenedor principal de alojamientos -->
+        <div class="container" id="normalContainer"></div>
+
+        <!-- Botón ver favoritos -->
+        <button id="verFavoritosBtn" style="display:block; margin:20px auto;">Ver favoritos</button>
+
+        <!-- FAVORITOS -->
+        <section id="favoritosSection" style="display:none;">
+            <h2>❤️ Tus favoritos</h2>
+            <div id="favoritosContainer" class="container"></div>
+        </section>
+    </main>
+
+    <script src="app2.js"></script>
+</body>
+</html>
